@@ -1,0 +1,45 @@
+{
+  "plateforme": "Booking",
+  "date_collecte": "2025-11-05T10:32:00Z",
+  "hotel": {
+    "nom": "Hôtel du Soleil",
+    "localisation": {
+      "ville": "Nice",
+      "pays": "France"
+    },
+    "etoiles": 4,
+    "equipements": ["Wi-Fi", "Piscine", "Climatisation"],
+    "note_globale": 4.2,
+    "echelle_note": "5",
+    "criteres_globaux": {
+      "service": null,
+      "literie": null,
+      "proprete": 9,
+      "confort": 8,
+      "personnel": 10,
+      "rapport_qualite_prix": 8,
+      "emplacement": 9,
+      "installations": 8,
+      "wifi": 9
+    }
+  },
+  "avis": [
+    {
+      "langue": "fr",
+      "titre": "Super séjour, très propre et bien situé",
+      "texte_positif": "L'hôtel est très bien placé, la propreté impeccable et le personnel très accueillant.",
+      "texte_negatif": "Aucun point négatif notable.",
+      "note": 9.2,
+      "echelle_note_plateforme": 10,
+      "criteres": {
+        "proprete": 9,
+        "confort": 8,
+        "personnel": 10,
+        "rapport_qualite_prix": 8,
+        "emplacement": 9,
+        "installations": 8,
+        "wifi": 9
+      }
+    }
+  ]
+}
