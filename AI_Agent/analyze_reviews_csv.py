@@ -6,16 +6,13 @@ from typing import Literal, Dict
 import pandas as pd
 import requests
 
-# -----------------------
-# Config
-# -----------------------
 
-CSV_PATH = "reviews_most_relevant.csv"  # ton fichier
-ENCODING = "latin1"  # ton fichier est en latin1
-TEXT_COLUMN = "en_full_review"  # colonne qui contient le texte complet en anglais
+CSV_PATH = "reviews_most_relevant.csv"  
+ENCODING = "latin1"  
+TEXT_COLUMN = "en_full_review" 
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL_NAME = "mistral"  # ou "llama3" si tu préfères
+MODEL_NAME = "mistral"  
 
 AspectLabel = Literal["positive", "negative", "not_mentioned"]
 
@@ -52,14 +49,10 @@ Your answer MUST be ONLY valid JSON, with this exact structure:
 }
 """
 
-# -----------------------
-# Fonctions
-# -----------------------
+-----------------
 
 def classify_review_aspects_with_ollama(text: str) -> Dict[str, AspectLabel]:
-    """
-    Appelle le modèle local via Ollama et renvoie les labels d'aspect.
-    """
+  
     payload = {
         "model": MODEL_NAME,
         "messages": [
@@ -77,7 +70,7 @@ def classify_review_aspects_with_ollama(text: str) -> Dict[str, AspectLabel]:
     content = data["message"]["content"]
     parsed = json.loads(content)
 
-    # fallback si une clé manque
+   
     return {
         "cleanliness": parsed.get("cleanliness", "not_mentioned"),
         "comfort_equipment": parsed.get("comfort_equipment", "not_mentioned"),
@@ -118,9 +111,7 @@ def compute_stats(labels: list[AspectLabel]):
     }
 
 
-# -----------------------
-# Programme principal
-# -----------------------
+
 
 def main():
     print("Chargement du CSV...")
@@ -143,7 +134,6 @@ def main():
     for i, row in df.iterrows():
         text = str(row[TEXT_COLUMN])
         if not isinstance(text, str) or text.strip() == "" or text == "nan":
-            # pas de texte exploitable
             df.at[i, "cleanliness_label"] = "not_mentioned"
             df.at[i, "comfort_label"] = "not_mentioned"
             df.at[i, "location_label"] = "not_mentioned"
@@ -179,7 +169,6 @@ def main():
 
         print(" → cleanliness:", cl, "| comfort:", co, "| location:", lo)
 
-    # calcul des stats globales
     stats_cleanliness = compute_stats(cleanliness_labels)
     stats_confort = compute_stats(comfort_labels)
     stats_location = compute_stats(location_labels)
@@ -194,7 +183,7 @@ def main():
     print("\nEmplacement :")
     print(stats_location)
 
-    # sauvegarde CSV avec les labels
+
     out_path = "reviews_with_aspects.csv"
     df.to_csv(out_path, index=False, encoding="utf-8")
     print(f"\nFichier sauvegardé avec labels : {out_path}")
