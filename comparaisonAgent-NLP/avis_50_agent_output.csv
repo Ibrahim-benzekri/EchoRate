@@ -1,0 +1,46 @@
+avis_text,proprete,confort,emplacement,note_client,proprete_nlp,confort_nlp,emplacement_nlp,proprete_agent,confort_agent,emplacement_agent
+La chambre était très propre. Lit inconfortable. L'hôtel est loin du centre.,1,-1,-1,2,1,1,1,1,-1,-1
+Il y avait de la poussière partout. Chambre spacieuse et calme. Emplacement idéal.,-1,1,1,4,1,0,1,-1,1,1
+"Toute était impeccable. Bonne literie et fauteuil agréable. Bien situé, proche du centre-ville.",1,1,1,5,0,0,1,1,1,1
+Salle de bain insalubre. Lit trop dur. Quartier peu pratique.,-1,-1,-1,1,1,0,0,-1,-1,0
+La chambre était sale. Chambre trop petite et étroite. Difficile d'accès.,-1,-1,-1,1,1,1,1,-1,0,0
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
+Chambre très propre. Lit confortable. Tout était accessible facilement.,1,1,1,5,1,0,0,1,1,0
+Il y avait de la poussière partout. Matelas trop dur. L'hôtel est loin du centre.,-1,-1,-1,2,1,1,1,-1,-1,-1
+Toute était impeccable. Bonne literie et fauteuil agréable. Emplacement idéal.,1,1,1,5,0,0,1,1,1,1
+Salle de bain insalubre. Lit inconfortable. Quartier peu pratique.,-1,-1,-1,1,1,1,0,-1,-1,0
+"Chambre très propre. Nuit difficile, matelas dur. Emplacement idéal.",1,-1,1,3,1,1,1,1,-1,1
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
+"Lit confortable. Chambre spacieuse et calme. Bien situé, proche du centre-ville.",0,1,1,5,0,0,1,0,1,1
+Il y avait de la poussière partout. Matelas trop dur. Difficile d'accès.,-1,-1,-1,2,1,1,1,-1,-1,0
+Toute était impeccable. Bonne literie et fauteuil agréable. Emplacement idéal.,1,1,1,5,0,0,1,1,1,1
+Chambre très propre. Lit inconfortable. Quartier peu pratique.,1,-1,-1,2,1,1,0,1,-1,-1
+Salle de bain insalubre. Chambre spacieuse et calme. Tout était accessible facilement.,-1,1,1,4,1,0,0,-1,1,1
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
+"Il y avait de la poussière partout. Nuit difficile, matelas trop dur. L'hôtel est loin du centre.",-1,-1,-1,1,1,1,1,-1,-1,-1
+Toute était impeccable. Bonne literie et fauteuil agréable. Emplacement idéal.,1,1,1,5,0,0,1,1,1,1
+"Chambre très propre. Lit confortable. Bien situé, proche du centre-ville.",1,1,1,5,1,0,1,1,1,1
+Salle de bain insalubre. Lit inconfortable. Quartier peu pratique.,-1,-1,-1,1,1,1,0,-1,-1,0
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
+Il y avait de la poussière partout. Matelas trop dur. Emplacement idéal.,-1,-1,1,3,1,1,1,-1,-1,0
+"Toute était impeccable. Bonne literie et fauteuil agréable. Bien situé, proche du centre-ville.",1,1,1,5,0,0,1,1,1,1
+"Chambre très propre. Nuit difficile, matelas dur. Quartier peu pratique.",1,-1,-1,2,1,1,0,1,-1,-1
+Salle de bain insalubre. Lit confortable. L'hôtel est loin du centre.,-1,1,-1,2,1,0,1,-1,1,-1
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
+Lit confortable. Chambre spacieuse et calme. Tout était accessible facilement.,0,1,1,5,0,0,0,0,1,0
+Il y avait de la poussière partout. Matelas trop dur. Difficile d'accès.,-1,-1,-1,2,1,1,1,-1,-1,0
+Toute était impeccable. Bonne literie et fauteuil agréable. Emplacement idéal.,1,1,1,5,0,0,1,1,1,1
+Chambre très propre. Lit inconfortable. Quartier peu pratique.,1,-1,-1,2,1,1,0,1,-1,-1
+"Salle de bain insalubre. Chambre spacieuse et calme. Bien situé, proche du centre-ville.",-1,1,1,4,1,0,1,-1,1,1
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
+"Il y avait de la poussière partout. Nuit difficile, matelas dur. Emplacement idéal.",-1,-1,1,3,1,1,1,-1,-1,1
+Toute était impeccable. Bonne literie et fauteuil agréable. L'hôtel est loin du centre.,1,1,-1,4,0,0,1,1,1,-1
+"Chambre très propre. Lit confortable. Bien situé, proche du centre-ville.",1,1,1,5,1,0,1,1,1,1
+Salle de bain insalubre. Lit inconfortable. Quartier peu pratique.,-1,-1,-1,1,1,1,0,-1,-1,0
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
+Lit confortable. Chambre spacieuse et calme. Emplacement idéal.,0,1,1,5,0,0,1,0,1,1
+Il y avait de la poussière partout. Matelas trop dur. L'hôtel est loin du centre.,-1,-1,-1,2,1,1,1,-1,-1,-1
+"Toute était impeccable. Bonne literie et fauteuil agréable. Bien situé, proche du centre-ville.",1,1,1,5,0,0,1,1,1,1
+"Chambre très propre. Nuit difficile, matelas dur. Quartier peu pratique.",1,-1,-1,2,1,1,0,1,-1,-1
+Salle de bain insalubre. Lit confortable. L'hôtel est loin du centre.,-1,1,-1,2,1,0,1,-1,1,-1
+"Chambre neutre, rien de particulier à signaler.",0,0,0,3,0,0,0,0,0,0
